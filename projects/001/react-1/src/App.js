@@ -1,18 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Technologies from "./Technologies";
+import Header from "./Header";
 
 const App = () => {
-  return (
-      <div className="App">
-        <ul>
-          <li>css</li>
-          <li>html</li>
-          <li>js</li>
-          <li>react</li>
-        </ul>
-      </div>
-  );
+    return (
+        <div>
+            <Header/>
+            <Technologies/>
+        </div>);
 }
+
 
 // function App() {
 //   return (
